@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function f() {
+                var a=document.getElementById("one").value;
+                var b=document.getElementById("two").value;
+
+                window.alert("Addition of "+a+","+b+" is:"+(parseInt(a)+parseInt(b)));
+            }
+            
+        </script>
+    </head>
+    <body>
+        <form name="form1">
+            <input type="text" name="one" id="one">+
+            <input type="text" name="two" id="two">
+        </form>
+        <input type="button" value="Click me" onclick="f()">
+
+
+    </body>
+</html>
